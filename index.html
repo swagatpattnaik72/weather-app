@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App by Swagat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Weather App by Swagat</h1>
+
+  <!-- Dark Mode Toggle Button -->
+  <button onclick="toggleDarkMode()" id="darkModeBtn">Toggle Dark Mode</button>
+
+  <!-- Input Container -->
+  <div class="input-container">
+    <input type="text" id="locationInput" placeholder="Enter City or ZIP Code">
+    <button onclick="getWeather()">Get Weather</button>
+    <button onclick="getLocationWeather()">Use My Location</button>
+    <button onclick="showInfo()">About PMA</button>
+  </div>
+
+  <!-- Loading Spinner -->
+  <div id="loadingSpinner" class="spinner hidden"></div>
+
+  <!-- Weather Result -->
+  <div id="weatherResult"></div>
+
+  <!-- Forecast Result -->
+  <div id="forecastContainer">
+    <h3>5-Day Forecast</h3>
+    <div id="forecastResult"></div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Made with ❤️ by Swagat</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
