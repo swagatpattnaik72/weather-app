@@ -25,6 +25,8 @@ A simple and clean weather application that allows users to search for real-time
 You need an API key from [OpenWeatherMap](https://openweathermap.org/api):  
 - Replace `const apiKey = 'YOUR_API_KEY_HERE'` in `script.js`
 
+⚠️ This project uses a free OpenWeatherMap API key exposed publicly for demonstration purposes only.  
+
 ## 🙌 About PMA
 This project is part of a technical assessment for Product Manager Accelerator.  
 [LinkedIn Page](https://www.linkedin.com/company/product-manager-accelerator/)
